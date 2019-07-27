@@ -55,7 +55,10 @@ void handleNotFound() {
   handleRoot();
 }
 
-/* This procedure pins a given text in the center of a desired row while scrolling from right to left another given text on another desired row.
+/* 
+ This routine is from Goet.  They posted it on the arduino forum at the following link:
+  https://forum.arduino.cc/index.php?topic=216486.0  
+   This procedure pins a given text in the center of a desired row while scrolling from right to left another given text on another desired row.
     Parameters:
     const String &pinnedText: pinned String
     int pinnedRow: desired row for pinned String
